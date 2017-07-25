@@ -10,6 +10,10 @@ p {
   line-height: 20px;
 }
 
+img {
+  display: block;
+}
+
 .btn {
   border: 3px solid #EA7C83;
   padding: 10px 30px;
@@ -120,7 +124,7 @@ p {
   height: 380px;
   background: url("../img/bg.jpg") no-repeat center;
   background-size: cover;
-  margin-top: 81px;
+  margin-top: 77px;
   text-align: center;
   padding-top: 65px;
 }
@@ -233,3 +237,64 @@ p {
 .portfolio .call p {
   color: #CCD8DA;
 }
+
+/* Qualidade */
+
+.quality {
+  padding: 60px 0;
+}
+
+.quality:after {
+  content: "";
+  width: 640px;
+  height: 109px;
+  display: block;
+  background: url("../img/lines.png") no-repeat center;
+  position: absolute;
+  top: 158px;
+  left: 158px;
+  z-index: -1;
+}
+
+.quality img {
+  margin: 0 auto;
+}
+
+.quality-list {
+  padding-top: 50px;
+}
+
+.quality-list li {
+  text-align: center;
+  padding: 0 40px;
+}
+
+.quality-list li h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.quality-list li h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #302D3D;  
+  margin: 6px auto;
+}
+
+.quality-list li p {
+  padding: 10px 20px 20px 20px;
+  text-align: center;
+}
+
+.quality-call a:hover {
+  color: #302D3D;
+  border-color: #302D3D;
+}
+
