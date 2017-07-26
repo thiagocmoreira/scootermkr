@@ -176,6 +176,7 @@ img {
 }
 
 .products-list li h3 {
+  color: #302D3D;
   font-weight: bold;
   font-size: 18px;
   line-height: 25px;
@@ -294,7 +295,22 @@ img {
 }
 
 .quality-call a:hover {
-  color: #302D3D;
-  border-color: #302D3D;
+  color: #20B7D2;
+  border-color: #20B7D2;
+}
+
+/* Breaking */
+
+.breaking {
+  width: 100%;
+  height: 200px;
+  background: url("../img/quebra.jpg") no-repeat center;
+  background-size: cover;
+  text-align: center;
+}
+
+.breaking .quote-external {
+  padding-top: 40px;
+  max-width: 400px;
 }
 
