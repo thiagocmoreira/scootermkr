@@ -82,6 +82,10 @@ img {
   margin: 8px auto 10px auto;
 }
 
+.menu-active {
+  color: #6E8FC6 !important;
+}
+
 /* Header */
 
 .header {
@@ -165,6 +169,41 @@ img {
   letter-spacing: .1em;
 }
 
+/* Internal Introduction */
+
+.introduction-internal {
+  width: 100%;
+  margin-top: 77px;
+  height: 160px;
+  background-size: cover;
+  background: red;
+  padding-top: 35px;
+}
+
+.introduction-internal h1 {
+  font-size: 36px;
+  line-height: 45px;
+  color: #CCD8DA;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: .1em;
+}
+
+.introduction-internal h1:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #CCD8DA;
+  margin: 6px auto 10px auto;
+}
+
+.introduction-internal p {
+  color: #CCD8DA;
+  text-align: center;
+}
+
 /* Products */
 
 .products {
@@ -239,10 +278,11 @@ img {
   color: #CCD8DA;
 }
 
-/* Qualidade */
+/* Quality */
 
 .quality {
   padding: 60px 0;
+  overflow: auto;
 }
 
 .quality:after {

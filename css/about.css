@@ -1,0 +1,45 @@
+.internal-about {
+   background: url("../img/about/bg-about.jpg") no-repeat center; 
+  /* background: #6E8FC6; */
+}
+
+.mission-about {
+  padding-top: 60px;
+}
+
+.mission-about h2 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: .1em;
+  color: #302D3D;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.mission-about h2:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #302D3D;  
+  margin: 8px 0 0 0;
+}
+
+.mission-about p {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 1em;
+  padding-right: 60px;
+  color: #302D3D;
+}
+
+.mission-about ul li {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.image-team {
+  padding-top: 20px; 
+}
