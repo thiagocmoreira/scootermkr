@@ -1,10 +1,60 @@
 /* Style for tablet */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-	
+  /* Introduction */
+
+	.introduction {
+    margin-top: 70px;
+  }
 }
 
 /* Style for smartphone */
 
 @media only screen and (max-width: 767px) {
-	
+  /* Header */
+  .header {
+    position: relative;
+    padding-bottom: 0;
+  }
+
+  .header img {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .header-menu {
+    text-align: center;
+  }
+
+  .header-menu ul li {
+    margin: 5px;
+  }
+
+  .header-menu ul li a {
+    width: 136px;
+    display: block;
+    float: left;
+    border: 2px solid #CCD8DA;
+    /* border-radius: 10px 20px; */
+  }
+
+  .header-menu ul li a:hover {
+    border: 2px solid #6E8FC6;
+  }
+
+  /* Introduction */
+
+  .introduction {
+    margin: 0;
+    padding-top: 25px;
+    background: url("../img/bg-responsive.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  .introduction h1 {
+    line-height: 55px;
+  }
+
+  .quote-external {
+    margin-bottom: 20px; 
+  }
 }
