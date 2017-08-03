@@ -1,0 +1,27 @@
+.internal-portfolio {
+   background: url("../img/about/bg-about.jpg") no-repeat center;
+   background-size: cover;
+}
+
+.quote-portfolio {
+  padding: 60px;
+  margin: 0 auto;
+  color: #302D3D;
+  max-width: 600px;
+}
+
+.quote-portfolio p {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 25px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.quote-portfolio cite {
+  font-size: 18px;
+  font-weight: bold;
+  float: right;
+  font-style: normal;
+}
