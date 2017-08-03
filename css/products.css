@@ -132,3 +132,44 @@
   background: none;
   padding: 7px 40px;
 }
+
+.budget-data {
+  color: #CCD8DA;  
+}
+
+.budget-data h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #6E8FC6;
+  font-weight: bold;
+}
+
+.budget-data span {
+  display: block;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.budget-email-contact {
+  margin-bottom: 40px;
+}
+
+.budget-data ul {
+  width: 75%;
+}
+
+.budget-data ul li {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  padding: 10px 15px;
+}
+
+.budget-data p {
+  font-size: 18px;
+  margin: 8px 0; 
+}
+
+.budget-data ul li:nth-child(odd) {
+  background: #393749;
+}
