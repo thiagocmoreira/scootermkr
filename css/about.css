@@ -1,6 +1,6 @@
 .internal-about {
-   background: url("../img/about/bg-about.jpg") no-repeat center; 
-  /* background: #6E8FC6; */
+   background: url("../img/about/bg-about.jpg") no-repeat center;
+   background-size: cover;
 }
 
 .mission-about {

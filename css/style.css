@@ -176,7 +176,7 @@ img {
   margin-top: 77px;
   height: 160px;
   background-size: cover;
-  background: red;
+  background: #6E8FC6;
   padding-top: 35px;
 }
 
@@ -243,6 +243,10 @@ img {
   background: #302D3D;
   padding: 40px 0;
   text-align: center;
+}
+
+.products-icon img {
+  margin: 0 auto;
 }
 
 .call {
