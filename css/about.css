@@ -34,10 +34,15 @@
   color: #302D3D;
 }
 
+.mission-about ul {
+  padding-left: 15px;
+}
+
 .mission-about ul li {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 18px;
   line-height: 30px;
+  list-style-type: square;
 }
 
 .image-team {

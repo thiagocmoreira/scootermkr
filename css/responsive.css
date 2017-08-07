@@ -6,6 +6,12 @@
     margin-top: 70px;
   }
 
+  /* Internal Introduction */
+
+  .introduction-internal {
+    margin-top: 70px;
+  }
+
   /* Quality */
 
   .quality:after {
@@ -37,6 +43,10 @@
 /* Style for smartphone */
 
 @media only screen and (max-width: 767px) {
+  .menu-active {
+    border-color: #6E8FC6 !important;
+  }
+
   /* Header */
   .header {
     position: relative;
@@ -92,6 +102,12 @@
     margin-bottom: 20px; 
   }
 
+  /* Internal Introduction */
+
+  .introduction-internal {
+    margin-top: 0;
+  }
+
   /* Quality */
 
   .quality:after {
@@ -109,5 +125,21 @@
     padding: 20px 0 0 0;
     background: #6E8FC6;
     color: #302D3D;
+  }
+
+  /* About Page */
+
+  .mission-about p {
+    padding-right: 0;
+  }
+
+  .mission-about p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .mission-about ul li {
+    font-size: 14px;
+    line-height: 20px;
   }
 }
