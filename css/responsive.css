@@ -152,6 +152,10 @@
 
   /* Footer */
 
+  .footer {
+    padding: 40px 40px 20px;
+  }
+
   .copy {
     width: 100%;
     padding: 20px 0 0 0;
@@ -217,6 +221,22 @@
   }
 
   .budget-data {
+    padding-top: 40px;
+  }
+
+  /* Portfolio Page */
+
+  .quote-portfolio {
+    padding: 40px 0 60px 0;
+  }
+
+  /* Contact Page */
+
+  .contact-form {
+    padding-right: 0;
+  }
+
+  .contact-data {
     padding-top: 40px;
   }
 }
