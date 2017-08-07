@@ -5,6 +5,33 @@
 	.introduction {
     margin-top: 70px;
   }
+
+  /* Quality */
+
+  .quality:after {
+    display: none;
+  }
+
+  .quality-list li {
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .quality-call {
+    padding: 20px;
+  }
+
+  /* Footer */
+
+  .footer-media ul li {
+    margin-right: 6px;
+  }
+
+  .footer-media ul li a img {
+    background: #6E8FC6;
+    max-width: 40px;
+    max-height: 40px;
+  }
 }
 
 /* Style for smartphone */
@@ -41,20 +68,46 @@
     border: 2px solid #6E8FC6;
   }
 
+  /* Call */
+
+  .call {
+    padding-top: 15px;
+  }
+
   /* Introduction */
 
   .introduction {
     margin: 0;
-    padding-top: 25px;
+    padding-top: 43px;
     background: url("../img/bg-responsive.jpg") no-repeat center;
     background-size: cover;
   }
 
   .introduction h1 {
-    line-height: 55px;
+    font-size: 36px;
+    line-height: 42px;
   }
 
   .quote-external {
     margin-bottom: 20px; 
+  }
+
+  /* Quality */
+
+  .quality:after {
+    display: none;
+  }
+
+  .quality-call {
+    padding: 0;
+  }
+
+  /* Footer */
+
+  .copy {
+    width: 100%;
+    padding: 20px 0 0 0;
+    background: #6E8FC6;
+    color: #302D3D;
   }
 }
