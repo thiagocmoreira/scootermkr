@@ -364,7 +364,7 @@ img {
 /* Footer */
 
 .footer {
-  width: 100;
+  width: 100%;
   background: #302D3D;
   color: #CCD8DA;
   padding: 40px;
