@@ -275,7 +275,7 @@ img {
   background: #CCD8DA;
 }
 
-.portfolio-list li:last-child {
+.portfolio-list div:last-of-type {
   margin-top: 20px;
 }
 

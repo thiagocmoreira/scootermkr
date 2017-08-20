@@ -230,6 +230,10 @@
     padding: 40px 0 60px 0;
   }
 
+  .portfolio {
+    padding-bottom: 40px;
+  }
+
   /* Contact Page */
 
   .contact-form {

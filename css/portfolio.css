@@ -28,7 +28,7 @@
 
 /* Responsive Slides */
 
-.rslides {
+.rslides, .rslides-portfolio {
   position: relative;
   list-style: none;
   overflow: hidden;
@@ -37,7 +37,7 @@
   margin: 0;
 }
 
-.rslides li {
+.rslides li, .rslides-portfolio li {
   -webkit-backface-visibility: hidden;
   position: absolute;
   display: none;
@@ -46,16 +46,40 @@
   top: 0;
 }
 
-.rslides li:first-child {
+.rslides li:first-child, .rslides-portfolio li:first-child {
   position: relative;
   display: block;
   float: left;
 }
 
-.rslides img {
+.rslides img, .rslides-portfolio img {
   display: block;
   height: auto;
-  float: left;
   width: 100%;
   border: 0;
+}
+
+.rslides_tabs {
+  text-align: center;
+  margin-top: 14px;
+}
+
+.rslides_tabs li {
+  display: inline;
+  margin: 0 3px;  
+}
+
+.rslides_tabs li a {
+  display: inline-block;
+   width: 12px;
+   height: 12px;
+   background: #262437;
+   color: #262437;
+   border-radius: 6px;
+   overflow: hidden;
+}
+
+.rslides_here a {
+  background: #6E8FC6 !important;
+  color: #6E8FC6 !important;
 }
