@@ -24,6 +24,7 @@ img {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: .1em;
+  transition: all .5s ease;
 }
 
 .btn:hover {
@@ -95,7 +96,7 @@ img {
   width: 100%;
   background: #302D3D;
   padding: 20px 0;
-  z-index: 2;
+  z-index: 10;
 }
 
 .header-menu {
@@ -116,6 +117,7 @@ img {
   font-size: 14px;
   line-height: 20px;
   padding: 10px 0;
+  transition: all .5s ease;
 }
 
 .header-menu ul li a:hover {
@@ -408,6 +410,7 @@ img {
   width: auto;
   height: auto;
   display: block;
+  transition: all .5s ease;
 }
 
  .footer-media ul li a img:hover {  
@@ -419,4 +422,31 @@ img {
   padding: 20px 0;
   background: #6E8FC6;
   color: #302D3D;
+}
+
+/* Animate */
+
+.js .introduction h1, .js .introduction blockquote, .js .introduction .btn, .js .animate, .js .animate-internal, .js .introduction-internal h1, .js .introduction-internal p {
+  opacity: 0;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -20px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInDown {
+  animation-name: fadeInDown;
 }
